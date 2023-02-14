@@ -23,21 +23,21 @@
 	"styles": [],
 	"packs": [
 		{
-			"name": "standardSkill",
+			"name": "standardSkills",
 			"label": "Standard Skills",
 			"system": "m-space",
-			"path": "packs/standardskill.db",
+			"path": "packs/standardSkills.db",
 			"entity": "Item"
 		},
 		{
-			"name": "professionalSkill",
+			"name": "professionalSkills",
 			"label": "Professional Skills",
 			"system": "m-space",
-			"path": "packs/professionalskill.db",
+			"path": "packs/professionalSkills.db",
 			"entity": "Item"
 		},
 		{
-			"name": "humanoidHitLocations",
+			"name": "hitLocations",
 			"label": "Humanoid Hit Locations",
 			"system": "m-space",
 			"path": "packs/humanoidHitLocations.db",
@@ -47,7 +47,7 @@
 			"name": "mspaceMacros",
 			"label": "M-SPACE Macros",
 			"system": "m-space",
-			"path": "packs/mythras-macros.db",
+			"path": "packs/mspaceMacros.db",
 			"entity": "Macro"
 		}
 	],
