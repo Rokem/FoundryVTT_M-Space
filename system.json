@@ -1,0 +1,71 @@
+{
+	"id": "m-space",
+	"title": "M-SPACE",
+	"description": "This game system for Foundry Virtual Tabletop provides character sheet and game system support for M-Space, a sci-fi RPG by FrostByte Books based on Mythras.",
+	"version": "0.0.1",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10",
+		"maximum": "11"
+	},
+	"templateVersion": 6,
+	"authors": [
+	{
+		"name": "Literally Rokem",
+		"email": "N/A",
+		"discord": "N/A"
+	}
+	],
+	"esmodules": [],
+	"styles": [],
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"packs": [
+		{
+			"name": "standardSkill",
+			"label": "Standard Skills",
+			"system": "m-space",
+			"path": "packs/standardskill.db",
+			"entity": "Item"
+		},
+		{
+			"name": "professionalSkill",
+			"label": "Professional Skills",
+			"system": "m-space",
+			"path": "packs/professionalskill.db",
+			"entity": "Item"
+		},
+		{
+			"name": "humanoidHitLocations",
+			"label": "Humanoid Hit Locations",
+			"system": "m-space",
+			"path": "packs/humanoidHitLocations.db",
+			"entity": "Item"
+		},
+		{
+			"name": "mspaceMacros",
+			"label": "M-SPACE Macros",
+			"system": "m-space",
+			"path": "packs/mythras-macros.db",
+			"entity": "Macro"
+		}
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"socket": true,
+	"initiative": "1d10",
+	"gridDistance": 1.5,
+	"gridUnits": "m",
+	"primaryTokenAttribute": "resources.health",
+	"secondaryTokenAttribute": "resources.power",
+	"url": "https://github.com/Rokem/foundryVTT_M-SPACE",
+	"manifest": "https://raw.githubusercontent.com/Rokem/foundryVTT_M-SPACE/main/system.json",
+	"download": "https://github.com/Rokem/foundryVTT_M-SPACE/archive/refs/heads/main.zip,
+	"license": "LICENSE.txt"
+}
