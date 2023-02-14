@@ -66,6 +66,6 @@
 	"secondaryTokenAttribute": "resources.power",
 	"url": "https://github.com/Rokem/foundryVTT_M-SPACE",
 	"manifest": "https://raw.githubusercontent.com/Rokem/foundryVTT_M-SPACE/main/system.json",
-	"download": "https://github.com/Rokem/foundryVTT_M-SPACE/archive/refs/heads/main.zip,
+	"download": "https://github.com/Rokem/foundryVTT_M-SPACE/archive/refs/heads/main.zip",
 	"license": "LICENSE.txt"
 }
